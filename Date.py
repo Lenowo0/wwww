@@ -2,7 +2,7 @@ import PySimpleGUI as sg
 import datetime
 
 layout = [
-    [sg.Text("enter the date lol (YY/DD/MM):", font=("Arial", 16, "bold"))],
+    [sg.Text("enter the date lol (YY/MM/DD):", font=("Arial", 16, "bold"))],
     [sg.Input()],
     [sg.Button("Submit"), sg.Exit()]
 ]
